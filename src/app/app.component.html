@@ -1,3 +1,28 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+
+
+<ion-split-pane when="xs" contentId="main">
+  
+  <ion-menu contentId="main">
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"> Deber de App Moviles - Cristhian Laines </ion-content>
+    <ion-avatar>
+      <img alt="Silhouette of a person's head" src="https://isil.pe/blog/wp-content/uploads/2023/05/tipos-de-app-moviles.png" />
+    </ion-avatar>
+    <ion-button color="warning">Abrir</ion-button>
+    <ion-button color="warning">Regresar</ion-button>
+  </ion-menu>
+
+  <div class="ion-page" id="main">
+    
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>MENU</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"> VISTA </ion-content>
+  </div>
+</ion-split-pane>
